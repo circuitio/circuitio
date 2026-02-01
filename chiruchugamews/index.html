@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circuitio | Powering Digital Intelligence</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Ionicons for minimalist icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <div class="noise-overlay"></div>
+    <div class="glow-orb top-left"></div>
+    <div class="glow-orb bottom-right"></div>
+
+    <nav class="navbar glass-effect">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                Circuit<span class="text-mint">io</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="product.html">Products</a></li>
+                <li><a href="partners.html">Partners</a></li>
+                <li><a href="#industries">Industries</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="contact.html" class="btn btn-primary">Get Started</a>
+            <div class="mobile-menu-toggle">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge-pill fade-in-up">
+                    <span class="dot"></span> AI-Driven Transformation
+                </div>
+                <h1 class="hero-title fade-in-up delay-1">Powering Digital <span
+                        class="text-gradient">Intelligence</span></h1>
+                <p class="hero-subtitle fade-in-up delay-2">Scale your business with next-gen AI, Cloud Infrastructure,
+                    and Intelligent Automation solutions.</p>
+                <div class="hero-cta fade-in-up delay-3">
+                    <a href="contact.html" class="btn btn-primary">Book Consultation</a>
+                    <a href="#services" class="btn btn-outline">Explore Services</a>
+                </div>
+            </div>
+            <!-- 3D Abstract Visuals will be handled via CSS/Image -->
+            <div class="hero-visual fade-in-up delay-2">
+                <div class="abstract-shape"></div>
+            </div>
+        </div>
+    </header>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Our Capabilities</h2>
+                <p class="section-desc">Comprehensive technology solutions engineered for the future.</p>
+            </div>
+
+            <div class="bento-grid">
+                <!-- AI & Automation (Large Box) -->
+                <div class="bento-card large glass-card">
+                    <div class="card-icon"><ion-icon name="hardware-chip-outline"></ion-icon></div>
+                    <h3>AI & Intelligent Automation</h3>
+                    <p>Custom AI Bots, RAG Systems, and Workflow Automation.</p>
+                    <ul class="service-list">
+                        <li>RAG Chatbots</li>
+                        <li>Sales AI Experts</li>
+                        <li>Workflow Automation</li>
+                    </ul>
+                </div>
+
+                <!-- Cloud (Medium Box) -->
+                <div class="bento-card medium glass-card">
+                    <div class="card-icon"><ion-icon name="cloud-upload-outline"></ion-icon></div>
+                    <h3>Cloud & Infrastructure</h3>
+                    <p>Scalable AWS/Azure/GCP setup & DevOps CI/CD pipelines.</p>
+                </div>
+
+                <!-- Web Dev (Medium Box) -->
+                <div class="bento-card medium glass-card">
+                    <div class="card-icon"><ion-icon name="code-slash-outline"></ion-icon></div>
+                    <h3>Web Development</h3>
+                    <p>High-performance Corporate Websites & SaaS Dashboards.</p>
+                </div>
+
+                <!-- Mobile App (Small Box) -->
+                <div class="bento-card small glass-card">
+                    <div class="card-icon"><ion-icon name="phone-portrait-outline"></ion-icon></div>
+                    <h3>Mobile Apps</h3>
+                    <p>iOS & Android (Flutter/React Native).</p>
+                </div>
+
+                <!-- Digital Marketing (Small Box) -->
+                <div class="bento-card small glass-card">
+                    <div class="card-icon"><ion-icon name="trending-up-outline"></ion-icon></div>
+                    <h3>Growth & Marketing</h3>
+                    <p>SEO, SMM & Performance Marketing.</p>
+                </div>
+
+                <!-- E-Services (Small Box) -->
+                <div class="bento-card small glass-card">
+                    <div class="card-icon"><ion-icon name="cart-outline"></ion-icon></div>
+                    <h3>E-Services</h3>
+                    <p>Payment Gateways & Digital Sales Systems.</p>
+                </div>
+
+                <!-- Consult & Security (Wide Box) -->
+                <div class="bento-card wide glass-card">
+                    <div class="card-icon"><ion-icon name="shield-checkmark-outline"></ion-icon></div>
+                    <h3>Security & Consulting</h3>
+                    <p>Data Protection, Compliance, and Digital Transformation Strategy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="industries" class="industries-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Industries We Serve</h2>
+            </div>
+            <div class="industry-scroller">
+                <div class="industry-tag">Startups</div>
+                <div class="industry-tag">Enterprise</div>
+                <div class="industry-tag">E-Commerce</div>
+                <div class="industry-tag">EdTech</div>
+                <div class="industry-tag">Healthcare</div>
+                <div class="industry-tag">FinTech</div>
+                <div class="industry-tag">Real Estate</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    Circuit<span class="text-mint">io</span>
+                </a>
+                <p>Powering the next generation of digital business.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="partners.html">Partners</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2024 Circuitio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
